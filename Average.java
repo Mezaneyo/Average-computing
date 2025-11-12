@@ -25,8 +25,9 @@ public class Average{
         double average = sum/4;
 
         System.out.println("The average of the four numbers is: " + average);
-        input.close();
+        input.close();//close the scanner input
 
     }
+
 
 }
